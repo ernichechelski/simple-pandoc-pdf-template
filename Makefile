@@ -9,7 +9,3 @@ all: $(OUTPUT_FILE)
 
 %.docx: %.md
 	pandoc $< -o $@
-
-.PHONY: clean
-// clean:
-//	rm $(OUTPUT_FILE)
