@@ -33,6 +33,6 @@ jobs:
         path: |
           document.pdf
     - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: document.pdf
+      uses: softprops/action-gh-release@v1
+      with:
+        files: document.pdf
