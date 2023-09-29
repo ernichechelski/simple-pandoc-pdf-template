@@ -11,5 +11,5 @@ all: $(OUTPUT_FILE)
 	pandoc $< -o $@
 
 .PHONY: clean
-clean:
-	rm $(OUTPUT_FILE)
+// clean:
+//	rm $(OUTPUT_FILE)
