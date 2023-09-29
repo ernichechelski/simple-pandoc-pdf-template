@@ -20,6 +20,9 @@ jobs:
     - name: Install pdflatex
       run: sudo apt-get install -y texlive-latex-recommended
 
+    - name: Install pdflatex
+      run: sudo apt-get install -y texlive-fonts-extra
+
     - name: Install dependencies
       run: make
 
