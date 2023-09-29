@@ -18,8 +18,8 @@ jobs:
       run: sudo apt-get install -y pandoc
 
     - name: Install pdflatex
-      run: sudo apt-get install -y texlive-latex-base
-      
+      run: sudo apt-get install -y texlive-latex-recommended
+
     - name: Install dependencies
       run: make
 
